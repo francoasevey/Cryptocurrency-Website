@@ -27,4 +27,12 @@ header nav{
     height: 15%;
     margin: auto;
     border: 1px solid var(--color-1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
