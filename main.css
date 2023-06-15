@@ -96,3 +96,7 @@ header section .content h1{
     font-size: 45px;
     line-height: 55px;
 }
+header section .content p{
+    font-size: 13px;
+    margin-top: 10px;
+}
