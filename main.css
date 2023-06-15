@@ -100,3 +100,17 @@ header section .content p{
     font-size: 13px;
     margin-top: 10px;
 }
+header section .content button{
+    padding: 12px 25px;
+    background: linear-gradient(0deg, #ae2c86, #d0498d);
+    border-radius: 30px;
+    color: var(--color-1);
+    font-size: 11px;
+    font-weight: 700;
+    margin: 30px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+header section .content button:hover{
+    background: linear-gradient(0deg, #d0498d #ae2c86);
+}
