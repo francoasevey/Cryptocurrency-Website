@@ -155,3 +155,8 @@ aside p{
     font-size: 9px;
     text-align: center;
 }
+aside img{
+    position: relative;
+    width: 100%;
+    margin-top: -60px;
+}
