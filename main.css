@@ -172,3 +172,12 @@ aside .time span{
     margin: 0px 25px;
     color: var(--color-7);
 }
+aside .time span h6{
+    font-size: 11px;
+    text-align: center;
+    color: #a5a5a5;
+}
+aside .time h5{
+    font-size: 25px;
+    margin-top: -16px;
+}
