@@ -160,3 +160,15 @@ aside img{
     width: 100%;
     margin-top: -60px;
 }
+aside .time{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+aside .time span{
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0px 25px;
+    color: var(--color-7);
+}
