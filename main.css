@@ -146,6 +146,12 @@ aside h1::before{
     content: '';
     position: absolute;
     width: 50px;
-    height: 3px;
+    height: 3.5px;
     background: var(--color-6);
+    bottom: -10px;
+    left: 100px;
+}
+aside p{
+    font-size: 9px;
+    text-align: center;
 }
