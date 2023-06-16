@@ -132,4 +132,20 @@ aside{
     height: auto;
     color: var(--color-1);
     background: var(--color-5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+aside h1{
+    margin-bottom: 30px;
+    position: relative;
+    padding-top: 60px;
+}
+aside h1::before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background: var(--color-6);
 }
