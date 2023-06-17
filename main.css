@@ -198,10 +198,10 @@ aside button:hover{
 .app{
     width: 100%;
     height: auto;
-    background: var(--color-1);
+    background: var(--color-5);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .app .app_img_bx,
 .app_content_bx{
@@ -210,4 +210,11 @@ aside button:hover{
     height: auto;
     color: var(--color-1);
     margin-top: 40px;
+    border: 1px solid var(--color-1);
+}
+.app .app_img_bx{
+    width: 30%;
+}
+.app .app_img_bx img{
+    width: 90%;
 }
