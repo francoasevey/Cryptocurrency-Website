@@ -195,3 +195,19 @@ aside button{
 aside button:hover{
     background: linear-gradient(0deg, #d0498d #ae2c86);
 }
+.app{
+    width: 100%;
+    height: auto;
+    background: var(--color-1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.app .app_img_bx,
+.app_content_bx{
+    position: relative;
+    width: 35%;
+    height: auto;
+    color: var(--color-1);
+    margin-top: 40px;
+}
