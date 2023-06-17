@@ -286,11 +286,23 @@ aside button:hover{
     width: 380px;
     height: 210px;
 }
+.converter .cards .card2{
+    width: 50px;
+    height: 50px;
+    margin:  0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--color-6);
+    color: var(--color-1);
+}
 .converter .cards .card::before{
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
     background: #00002c80;
+    border-radius: 10px;
     z-index: -1;
 }
