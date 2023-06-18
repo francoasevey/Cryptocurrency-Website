@@ -504,3 +504,16 @@ aside button:hover{
 .road_map .map .card .title h4{
     font-size: 12px;
 }
+.road_map .map .card h5{
+    width: 30px;
+    height: 1px;
+    background: var(--color-2);
+    margin: 15px 5px;
+}
+.road_map .map .card h2{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    background: var(--color-6);
+    border-radius: 50%;
+}
