@@ -489,3 +489,18 @@ aside button:hover{
     display: flex;
     align-items: center;
 }
+.road_map .map .card .title{
+    width: 130px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: var(--color-1);
+}
+.road_map .map .card .title h6{
+    font-size: 11px;
+    color: var(--color-2);
+}
+.road_map .map .card .title h4{
+    font-size: 12px;
+}
