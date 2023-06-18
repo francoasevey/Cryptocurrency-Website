@@ -445,3 +445,27 @@ aside button:hover{
     align-items: center;
     justify-content: center;
 }
+.road_map{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 60px;
+    background: url('/img/rocket_bg.png') no-repeat center center/cover;
+}
+.road_map h1{
+    position: relative;
+    font-size: 25px;
+    padding-top: 50px;
+    color: var(--color-1);
+    text-align: center;
+}
+.road_map h1::before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3.5px;
+    background: var(--color-6);
+    bottom: -20px;
+    left: 49%;
+    border-radius: 10px;
+}
