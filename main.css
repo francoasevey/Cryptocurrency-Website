@@ -378,7 +378,7 @@ aside button:hover{
 .rocket_img{
     width: 32%;
     height: auto;
-    border: 1px solid var(--color-1);
+    /*border: 1px solid var(--color-1);*/
     color: var(--color-1);
 }
 .rocket .rocket_content h1{
@@ -439,4 +439,9 @@ aside button:hover{
 }
 .rocket .rocket_content button:hover{
     background: linear-gradient(0deg, #d0498d #ae2c86);
+}
+.rocket .rocket_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
