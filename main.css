@@ -544,3 +544,9 @@ aside button:hover{
 .road_map .map .card:nth-last-child(2) h2::before{
     background: #3f3f7d;
 }
+.road_map .map .card:nth-last-child(3) h2{
+    background: #3f3f7d;
+}
+.road_map .map .card:nth-last-child(3) h2::before{
+    background: #3f3f7d;
+}
