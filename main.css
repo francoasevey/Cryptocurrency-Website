@@ -517,3 +517,12 @@ aside button:hover{
     background: var(--color-6);
     border-radius: 50%;
 }
+.road_map .map .card h2::before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 45px;
+    background: var(--color-6);
+    top: 5px;
+    left: 7px;
+}
