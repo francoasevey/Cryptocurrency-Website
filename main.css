@@ -529,6 +529,12 @@ aside button:hover{
 .road_map .map .card:nth-child(even){
     flex-direction: row-reverse;
 }
-.road_map .map .card:nth-child(even).title{
+.road_map .map .card:nth-child(even) .title{
     align-items: flex-start;
+}
+.road_map .map .card:nth-last-child(1) h2::before{
+    display: none;
+}
+.road_map .map .card:nth-last-child(1) h2{
+    background: #3f3f7d;
 }
