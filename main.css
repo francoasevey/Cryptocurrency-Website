@@ -566,3 +566,26 @@ aside button:hover{
     border: 1px solid var(--color-1);
     margin-top: 100px;
 }
+.man .man_content{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.man .man_content h1{
+    position: relative;
+    font-size: 25px;
+    line-height: 40px;
+    color: var(--color-1);
+    margin-top: 50px;
+    text-align: right;
+}
+.man .man_content p{
+    margin-top: 60px;
+    font-size: 12px;
+    color: var(--color-1);
+    text-align: right;
+}
+.man .man_content .client_cole{
+
+}
