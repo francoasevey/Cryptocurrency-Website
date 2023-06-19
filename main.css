@@ -526,3 +526,9 @@ aside button:hover{
     top: 5px;
     left: 7px;
 }
+.road_map .map .card:nth-child(even){
+    flex-direction: row-reverse;
+}
+.road_map .map .card:nth-child(even).title{
+    align-items: flex-start;
+}
