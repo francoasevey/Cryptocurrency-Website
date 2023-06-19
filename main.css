@@ -485,7 +485,7 @@ aside button:hover{
 .road_map .map .card{
     width: 355px;
     height: 50px;
-    border: 1px solid var(--color-1);
+    /*border: 1px solid var(--color-1);*/
     display: flex;
     align-items: center;
 }
@@ -549,4 +549,13 @@ aside button:hover{
 }
 .road_map .map .card:nth-last-child(3) h2::before{
     background: #3f3f7d;
+}
+.man{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: url('/img/Man_bg.png') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
