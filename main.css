@@ -642,3 +642,13 @@ aside button:hover{
     color: var(--color-1);
     padding-top: 40px;
 }
+.news h1::before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3.5px;
+    border-radius: 10px;
+    background: var(--color-6);
+    bottom: -20px;
+    margin-left: 100px;
+}
