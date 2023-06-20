@@ -629,3 +629,16 @@ aside button:hover{
     height: 100%;
     border-radius: 50%;
 }
+.news{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    background: var(--color-5);
+}
+.news h1{
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    color: var(--color-1);
+    padding-top: 40px;
+}
