@@ -652,3 +652,29 @@ aside button:hover{
     bottom: -20px;
     margin-left: 100px;
 }
+.news .cards{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.news .cards{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+.news .cards .card{
+    width: 350px;
+    height: 350px;
+    background: #28284e;
+    border-radius: 15px;
+    color: var(--color-1);
+}
