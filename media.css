@@ -145,3 +145,43 @@
         width: 80%;
     }
 }
+@media screen and (max-width: 405px) {
+    header nav ul li a{
+        font-size: 8px;
+    }
+    header section .content h1{
+        font-size: 29px;
+        line-height: 42px;
+    }
+    header section .content p{
+        width: 300px;
+    }
+    aside .time span{
+        margin: 0px 10px;
+        font-size: 30px;
+    }
+    aside .time span h6{
+        font-size: 8px;
+    }
+    .rocket .rocket_img img{
+        width: 80%;
+    }
+    aside p{
+        font-size: 9px;
+        text-align: center;
+        width: 300px;
+    }
+    .converter .cards .card{
+        width: 310px;
+        height: 200px;
+    }
+    .converter .cards .card .select .select1 select{
+        width: 185px;
+    }
+    .converter .cards .card .enter_bitcoin input{
+        width: 196px;
+    }
+    .road_map p{
+        width: 300px;
+    }
+}
