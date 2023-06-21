@@ -185,3 +185,14 @@
         width: 300px;
     }
 }
+@media screen and (max-width: 355px) {
+    .road_map .map .card{
+        width: 331px;
+    }
+    .road_map .map .card .title h6{
+        font-size: 11px;
+    }
+    .road_map .map .card h5{
+        width: 18px;
+    }
+}
