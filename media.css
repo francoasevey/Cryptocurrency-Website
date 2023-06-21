@@ -41,3 +41,36 @@
         margin: 10px;
     }
 }
+@media screen and (max-width: 938px) {
+    header section .img_data img{
+        width: 420px;
+    }
+}
+@media screen and (max-width: 900px) {
+    header nav ul li{
+        padding: 3px 7px;
+    }
+    header nav ul li a{
+        font-size: 11px;
+    }
+    .app .app_img_bx, .app_content_bx{
+        width: 45%;
+    }
+    .converter .cards{
+        flex-direction: column;
+    }
+    .converter .cards .card2{
+        margin: 30px;
+    }
+    .rocket{
+        flex-direction: column-reverse;
+    }
+    .rocket .rocket_content,
+    .rocket_img{
+        width: 70%;
+    }
+    .man .man_img,
+    .man_content{
+        width: 45%;
+    }
+}
