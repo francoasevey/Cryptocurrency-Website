@@ -74,3 +74,74 @@
         width: 45%;
     }
 }
+@media screen and (max-width: 755px) {
+    header{
+        height: 90vh;
+    }
+    header nav ul{
+        position: absolute;
+        top: -2px;
+    }
+    header nav ul li a{
+        font-size: 10px;
+    }
+    header section{
+        flex-direction: column-reverse;
+    }
+    header section .content, .img_data{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header section .content{
+        flex-direction: column;
+    }
+    header section .content p{
+        width: 380px;
+    }
+    header section .content button{
+        margin: 10px;
+    }
+    aside img{
+        margin-top: 0px;
+    }
+    .app{
+        flex-direction: column;
+    }
+    .app .app_img_bx,
+    .app_content_bx{
+        width: 65%;
+    }
+    .man{
+        flex-direction: column;
+    }
+    .man .man_img,
+    .man_content{
+        width: 75%;
+    }
+}
+@media screen and (max-width: 469px) {
+    header section .img_data img{
+        width: 370px;
+    }
+    header section .content{
+        align-items: flex-start;
+    }
+    header section .content h1{
+        font-size: 35px;
+        line-height: 55px;
+    }
+    .app .app_img_bx,
+    .app_content_bx{
+        width: 80%;
+    }
+    .rocket .rocket_content,
+    .rocket_img{
+        width: 80%;
+    }
+    .man .man_img,
+    .man_content{
+        width: 80%;
+    }
+}
