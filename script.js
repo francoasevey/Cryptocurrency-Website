@@ -77,7 +77,7 @@ let gov = document.getElementById('gov');
 
 let bitcoin_dollar = 19974.45;
 let ethereum_dollar = 1349.85;
-let theter_dollar = 1;
+let tether_dollar = 1;
 let bnb_dollar = 291.55;
 
 crypto.addEventListener('change', () => {
@@ -112,22 +112,22 @@ crypto.addEventListener('change', () => {
         case coin.value:
             switch ("Dollar") {
                 case coins.value:
-                    gov.value = (crypto.value) * Ethereum_dollar;
+                    gov.value = (crypto.value) * ethereum_dollar;
                     break;
             }
             switch ("Rupee") {
                 case coins.value:
-                    gov.value = (crypto.value) * (Ethereum_dollar * 81);
+                    gov.value = (crypto.value) * (ethereum_dollar * 81);
                     break;
             }
             switch ("Riyal") {
                 case coins.value:
-                    gov.value = (crypto.value) * (Ethereum_dollar * 3.76);
+                    gov.value = (crypto.value) * (ethereum_dollar * 3.76);
                     break;
             }
             switch ("Dirham") {
                 case coins.value:
-                    gov.value = (crypto.value) * (Ethereum_dollar * 3.67);
+                    gov.value = (crypto.value) * (ethereum_dollar * 3.67);
                     break;
             }
             break;
@@ -139,22 +139,22 @@ crypto.addEventListener('change', () => {
         case coin.value:
             switch ("Dollar") {
                 case coins.value:
-                    gov.value = (crypto.value) * Tether_dollar;
+                    gov.value = (crypto.value) * tether_dollar;
                     break;
             }
             switch ("Rupee") {
                 case coins.value:
-                    gov.value = (crypto.value) * (Tether_dollar * 81);
+                    gov.value = (crypto.value) * (tether_dollar * 81);
                     break;
             }
             switch ("Riyal") {
                 case coins.value:
-                    gov.value = (crypto.value) * (Tether_dollar * 3.76);
+                    gov.value = (crypto.value) * (tether_dollar * 3.76);
                     break;
             }
             switch ("Dirham") {
                 case coins.value:
-                    gov.value = (crypto.value) * (Tether_dollar * 3.67);
+                    gov.value = (crypto.value) * (tether_dollar * 3.67);
                     break;
             }
             break;
